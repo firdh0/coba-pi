@@ -154,7 +154,7 @@ app.post('/api/customers', verifyToken, (req, res) => {
 // heroku
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.warn('App listening on ${PORT}');
+    console.warn(`App listening on ${PORT}`);
 });
 
 // jgn lupa npm init untuk buat package.json
